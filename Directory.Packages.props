@@ -6,33 +6,5 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageVersion Include="ApprovalTests" Version="6.0.0" />
-    <PackageVersion Include="Cronos" Version="0.9.0" />
-    <PackageVersion Include="FakeItEasy" Version="8.3.0" />
-    <PackageVersion Include="FluentAssertions" Version="7.0.0" />
-    <PackageVersion Include="Microsoft.ApplicationInsights.WorkerService" Version="2.22.0" />
-    <PackageVersion Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
-    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
-    <PackageVersion Include="Microsoft.Extensions.Http" Version="8.0.1" />
-    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageVersion Include="NUnit" Version="4.3.2" />
-    <PackageVersion Include="NUnit3TestAdapter" Version="4.6.0" />
-    <PackageVersion Include="Polly" Version="8.5.0" />
-    <PackageVersion Include="VetDB.Core.Data.Migration" Version="13.0.4" />
-    <PackageVersion Include="VetDB.Core.Data.MongoDb" Version="19.1.17" />
-    <PackageVersion Include="VetDB.Core.Infrastructure" Version="19.1.17" />
-    <PackageVersion Include="VetDB.Core.Infrastructure.Autofac" Version="19.1.17" />
-    <PackageVersion Include="VetDB.Core.Lookup.Contracts" Version="5.0.70" />
-    <PackageVersion Include="VetDB.Hub.Shared" Version="6.0.46" />
-    <PackageVersion Include="VetDB.Identity" Version="4.0.75" />
-    <PackageVersion Include="VetDB.Identity.Shared" Version="2.0.7" />
-    <PackageVersion Include="VetDB.Infrastructure.Shared" Version="3.0.8" />
-    <PackageVersion Include="VetDB.Medical.Shared" Version="3.0.8" />
-    <PackageVersion Include="VetDB.MicrochipRegistry.Shared" Version="2.0.7" />
-    <PackageVersion Include="VetDB.Pathology.Shared" Version="5.0.9" />
-    <PackageVersion Include="VetDB.Patient.Shared" Version="5.0.10" />
-    <PackageVersion Include="VetDB.Portal.Global.Shared" Version="3.0.6" />
-    <PackageVersion Include="VetDB.Practice.Shared" Version="2.0.27" />
-    <PackageVersion Include="VetDB.System.Shared" Version="1.0.31" />
-    <PackageVersion Include="VetDB.TestFramework" Version="16.0.18" />
   </ItemGroup>
 </Project>
