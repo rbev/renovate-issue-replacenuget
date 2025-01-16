@@ -1,17 +1,27 @@
-# minimal-reproduction-template
-
-First, read the [Renovate minimal reproduction instructions](https://github.com/renovatebot/renovate/blob/main/docs/development/minimal-reproductions.md).
-
-Then replace the current `h1` with the Renovate Issue/Discussion number.
+# 33635
 
 ## Current behavior
 
-Explain the current behavior here.
+Renovate will edit Directory.Pacakges.props correctly and ignore csproj files
 
 ## Expected behavior
 
-Explain the expected behavior here.
+Directory.Pacakges.props should become 
+
+```
+ <ItemGroup>
+    <PackageVersion Include="AwesomeAssertions" Version="7.0.0" />
+  </ItemGroup>
+```
+
+Project1.csproj should become
+```
+  <ItemGroup>
+    <PackageReference Include="AwesomeAssertions"/>
+  </ItemGroup>
+```
+
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/33635
